@@ -1,0 +1,195 @@
+.Search_Bar{
+    background-color: #fff;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+    border-radius: 10px;
+    width: 65%;
+    height: 55px;
+    max-width:750px;
+    display: flex;
+    align-items: center;
+}
+
+.Part_one{
+    padding: 15px;
+    padding-right: 5px;
+    
+}
+
+.Part_one input{
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+}
+
+.Part_two{
+    padding: 15px;
+}
+
+.Part_two input{
+    width: 350px;
+    height: 50px;
+    border: none;
+    outline: none;
+}
+
+.tabs ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.tabs ul li{
+    color: rgba(0, 0, 0, 0.539);
+    margin-right: 5px;
+    font-size: 15px;
+}
+.tabs ul li a{
+    color: rgba(0, 0, 0, 0.539);
+    text-decoration: none;
+}
+
+.t1{
+    cursor: pointer;
+}
+
+.t1 div{
+    display: flex;
+    align-items: center;
+    border-top: none;
+    padding: 0px 10px;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgb(228, 67, 67);
+    margin-left: 30px;
+    transition: 0.3s;
+}
+
+.t1 div:hover{
+    background-color: rgb(228, 67, 67);
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.h3{
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.t1 div a{
+    text-decoration: none;
+    color: #333;
+}
+.t1 div img{
+    width: 60px;
+    height: 60px;
+}
+
+.e1{
+    display: flex;
+    justify-content: space-between;
+}
+span a{
+    color: rgb(255, 50, 50);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.Collections{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+}
+
+
+.btn {
+    display: flex;
+}
+
+.btn button{
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+}
+
+.btn button:hover {
+    color: white;
+    background-color: gray;
+    transition: 0.3s;
+}
+
+.cdby{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cdby p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+}
+.heading{
+    margin: 20px 0px;
+}
+
+.multiple{
+    display: flex;
+}
+
+.imagecard{
+    width: 180px;
+    height: 250px;
+}
+
+.accordion-item{
+    margin: 20px 5px;
+    box-shadow:2px 2px 2px #333;
+    border-radius: 10px;
+}
+
+
+footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Sociallinks{
+    cursor: pointer;
+}
+
+.Sociallinks small a{
+    color: #333;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    border-radius: 10px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+    border: 2px solid #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
